@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+    <title>TradeGenie</title>
+</head>
+
+<body>
+    <h2>TradeGenie</h2>
+
+    <div class="main-container">
+        <div class="left-panel">
+            <div class="input-group">
+                <label for="asset">Asset Class:</label>
+                <select id="asset" name="asset">
+                    <option value="stock">Stock</option>
+                    <option value="crypto">Crypto</option>
+                    <option value="housing">Housing</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="risk">Risk Tolerance:</label>
+                <select id="risk" name="risk">
+                    <option value="conservative">Conservative</option>
+                    <option value="moderate">Moderate</option>
+                    <option value="aggressive">Aggressive</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="timeline">Investiment Timeline:</label>
+                <select id="timeline" name="timeline">
+                    <option value="short">Short-term</option>
+                    <option value="mid">Mid-term</option>
+                    <option value="long">Long-term</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Existing Portfolio:</label>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="technology" name="portfolio" value="technology">
+                        <label for="technology">Technology</label>
+                    </div>
+
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="finance" name="portfolio" value="finance">
+                        <label for="finance">Finance</label>
+                    </div>
+
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="healthcare" name="portfolio" value="healthcare">
+                        <label for="healthcare">Healthcare</label>
+                    </div>
+
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="consumer" name="portfolio" value="consumer">
+                        <label for="consumer">Consumer</label>
+                    </div>
+
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="energy" name="portfolio" value="energyIndustrials">
+                        <label for="energy">Energy & Industrials</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="goal">Investment Goals:</label>
+                <select id="goal" name="goal">
+                    <option value="retirement">Retirement</option>
+                    <option value="income">Income</option>
+                    <option value="growth">Growth</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="advice-box">
+                <h2>AI Investment Insight</h2>
+                <p id="ai-advice">
+                    Your AI-generated investment insights will appear here...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button id="clickme">Generate Insights</button>
+    </div>
+
+    <div id="spinner" style="display:none; text-align:center;">
+        <div class="loader"></div>
+        <p>Analyzing market sentiment...</p>
+    </div>
+</body>
+
+</html>

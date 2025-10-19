@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "hello extension",
+    "version": "1.0",
+    "description": "my first chrome extension!",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": ["storage", "activeTab", "scripting"]
+}
