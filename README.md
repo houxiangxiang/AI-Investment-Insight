@@ -36,6 +36,7 @@ It tailors insights to each user by factoring in personal preferences such as **
 5. Update your preferences anytime to receive refreshed recommendations.
 
 ## 📂 Project Structure
+```text
 ai-investment-insight/
 │── manifest.json        # Extension manifest
 │── popup.html           # Popup UI
@@ -43,6 +44,7 @@ ai-investment-insight/
 │── popup.css            # Styling
 │── icon.png             # Extension icons
 │── README.md            # Project documentation
+```
 
 ## 🛡️ Disclaimer
 This extension is for educational and informational purposes only.
