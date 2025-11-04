@@ -3,6 +3,8 @@
 **AI Investment Insight** is a Chrome extension that delivers concise market intelligence by summarizing the latest news from [Yahoo Finance](https://finance.yahoo.com).  
 It tailors insights to each user by factoring in personal preferences such as **risk tolerance**, **investment horizon**, and **Investiment goals**—providing a clear snapshot of current market sentiment along with actionable investment suggestions.
 
+[Watch the video on Youtube](https://www.youtube.com/watch?v=Dts3Ul8VUYU)
+
 ---
 
 ## ✨ Features
@@ -51,4 +53,5 @@ This extension is for educational and informational purposes only.
 It does not constitute financial advice. Always do your own research or consult a licensed financial advisor before making investment decisions.
 
 ## 📜 License
+
 This project is licensed under the MIT License. See LICENSE for details.
